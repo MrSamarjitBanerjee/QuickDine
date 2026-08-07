@@ -11,7 +11,7 @@ export default function AuthModal() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [phone, setPhone] = useState("");
-   // const [isOwner, setIsOwner] = useState<boolean>(false);
+    const [isOwner, setIsOwner] = useState<boolean>(false);
 
     const [formLoading, setFormLoading] = useState(false);
 
@@ -22,7 +22,7 @@ export default function AuthModal() {
         setEmail("");
         setPassword("");
         setPhone("");
-        //setIsOwner(false);
+        setIsOwner(false);
     };
 
     const handleClose = () => {
@@ -39,7 +39,7 @@ export default function AuthModal() {
         if (isLoginTab) {
             success = await login(email, password);
         } else {
-            success = await register(name, email, password, phone, "user");
+            success = await register(name, email, password, phone, isOwner ? "owner" : "user");
         }
 
         setFormLoading(false);
@@ -182,7 +182,21 @@ export default function AuthModal() {
                                 </div>
                             </div>
 
-                           
+                            {/* Owner Checkbox (Register Only) */}
+                            {!isLoginTab && (
+                                <div className="flex items-center gap-2.5 pt-2">
+                                    <input
+                                        type="checkbox"
+                                        id="isOwner"
+                                        checked={isOwner}
+                                        onChange={(e) => setIsOwner(e.target.checked)}
+                                        className="h-4 w-4 accent-secondary rounded border-outline-variant/60 cursor-pointer"
+                                    />
+                                    <label htmlFor="isOwner" className="text-xs text-black/55 select-none cursor-pointer">
+                                        I am a Restaurant Owner / Manager
+                                    </label>
+                                </div>
+                            )}
                         </div>
                     </div>
 
