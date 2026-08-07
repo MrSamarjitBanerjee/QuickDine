@@ -15,6 +15,25 @@ A full-stack restaurant discovery and table booking platform built with the MERN
 
 ---
 
+
+## Screenshots
+
+<img width="959" height="434" alt="image" src="https://github.com/user-attachments/assets/bc8ea8f5-e7f1-4694-b831-b88aca590e8a" />
+<img width="929" height="450" alt="image" src="https://github.com/user-attachments/assets/cc3b8942-5ddb-4bd8-bb68-908a0cd82d7f" />
+<img width="958" height="509" alt="image" src="https://github.com/user-attachments/assets/c464feca-3345-4d78-9253-8f81f2b1d022" />
+<img width="958" height="500" alt="image" src="https://github.com/user-attachments/assets/5ab5e81c-cb66-4301-8067-146cd0b60f00" />
+<img width="920" height="460" alt="image" src="https://github.com/user-attachments/assets/92799161-d2ef-4411-96a8-4129cfacee7c" />
+
+
+
+
+
+
+
+
+
+
+
 ## 🚀 Features
 
 ### User
