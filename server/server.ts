@@ -33,17 +33,10 @@ const allowedOrigins = (
     .filter(Boolean);
 
 app.use(
-    cors({
-        origin(origin, callback) {
-            // Allow requests without an Origin header (curl, mobile apps, same-origin)
-            if (!origin || allowedOrigins.includes(origin)) {
-                callback(null, true);
-            } else {
-                // Deny by omitting CORS headers so the browser blocks the request
-                callback(null, false);
-            }
-        },
-    })
+  cors({
+    origin: true,
+    credentials: true,
+  })
 );
 app.use(express.json());
 
