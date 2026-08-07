@@ -182,7 +182,7 @@ export default function AuthModal() {
                                 </div>
                             </div>
 
-                            {/* Owner Checkbox removed — users can only register as regular users */}
+                      
                         </div>
                     </div>
 
