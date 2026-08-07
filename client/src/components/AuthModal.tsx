@@ -162,8 +162,7 @@ export default function AuthModal() {
                                 </div>
                             )}
                             
-                            </div>
-                            </div>
+                        
 
                             {/* Password Field */}
                             <div className="space-y-1">
@@ -183,6 +182,9 @@ export default function AuthModal() {
                                         className="w-full pl-7 pb-2 pt-1 text-sm bg-transparent border-b border-outline-variant/60 focus:border-secondary focus:outline-none transition-colors"
                                     />
                                 </div>
+                            </div>
+
+                            </div>
                             </div>
 
                             {/* Owner Checkbox (Register Only) */}
