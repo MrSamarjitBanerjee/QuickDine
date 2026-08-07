@@ -1,8 +1,7 @@
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=blur&color=0:0F172A,100:F97316&height=230&text=🍽️%20QuickDine&fontColor=ffffff&fontSize=58&animation=fadeIn&desc=Restaurant%20Discovery%20%26%20Table%20Booking&descAlignY=70"/>
-</p>
-
 # 🍽️ QuickDine
+
+*Simplifying Restaurant Discovery and Table Reservations with Modern Web Technologies*
+
 
 A full-stack restaurant discovery and table booking platform built with the MERN stack. Users can discover restaurants, check table availability, and reserve seats, while restaurant owners and admins manage bookings through dedicated dashboards.
 
@@ -34,6 +33,10 @@ A full-stack restaurant discovery and table booking platform built with the MERN
 - Password hashing with bcrypt
 
 ---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=28&duration=3500&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=MongoDB+%E2%80%A2+Express.js+%E2%80%A2+React+%E2%80%A2+Node.js" />
+</p>
 
 ## 🛠 Tech Stack
 
