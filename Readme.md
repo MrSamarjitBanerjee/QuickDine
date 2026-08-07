@@ -1,6 +1,12 @@
-# 🍽️ QuickDine
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:F97316,100:EF4444&text=QuickDine&fontColor=ffffff&fontSize=60&animation=twinkling"/>
+</p>
 
-*Simplifying Restaurant Discovery and Table Reservations with Modern Web Technologies*
+<p align="center">
+<i>Simplifying Restaurant Discovery and Table Reservations with Modern Web Technologies</i>
+</p>
+
+*
 
 
 A full-stack restaurant discovery and table booking platform built with the MERN stack. Users can discover restaurants, check table availability, and reserve seats, while restaurant owners and admins manage bookings through dedicated dashboards.
