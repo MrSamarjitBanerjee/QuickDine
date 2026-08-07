@@ -39,7 +39,7 @@ export default function AuthModal() {
         if (isLoginTab) {
             success = await login(email, password);
         } else {
-            success = await register(name, email, password, phone, /*isOwner ? "owner" :*/  "user");
+            success = await register(name, email, password, phone, "user");
         }
 
         setFormLoading(false);
@@ -182,12 +182,10 @@ export default function AuthModal() {
                                 </div>
                             </div>
 
-                    </div>
+                            {/* Owner Checkbox (Register Only) */}
+                            
                         </div>
-
-
-                           
-                        
+                    </div>
 
                     {/* Submit Buttons */}
                     <div className="mt-8">
