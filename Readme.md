@@ -2,7 +2,7 @@
 
 A full-stack restaurant discovery and table booking platform built with the MERN stack. Users can discover restaurants, check table availability, and reserve seats, while restaurant owners and admins manage bookings through dedicated dashboards.
 
-> Built as a learning project to strengthen React, TypeScript, Express.js, MongoDB, authentication, and REST API development. :contentReference[oaicite:0]{index=0}
+> Built as a learning project to strengthen React, TypeScript, Express.js, MongoDB, authentication, and REST API development. 
 
 ---
 
@@ -57,7 +57,7 @@ A full-stack restaurant discovery and table booking platform built with the MERN
 ### Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/QuickDine.git
+git clone https://github.com/MrSamarjitBanerjee/QuickDine.git
 cd QuickDine
 ```
 
