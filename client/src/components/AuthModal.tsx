@@ -11,7 +11,7 @@ export default function AuthModal() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [phone, setPhone] = useState("");
-   // const [isOwner, setIsOwner] = useState<boolean>(false);
+    // const [isOwner, setIsOwner] = useState<boolean>(false);
 
     const [formLoading, setFormLoading] = useState(false);
 
@@ -22,7 +22,7 @@ export default function AuthModal() {
         setEmail("");
         setPassword("");
         setPhone("");
-        //setIsOwner(false);
+        // setIsOwner(false);
     };
 
     const handleClose = () => {
@@ -182,7 +182,7 @@ export default function AuthModal() {
                                 </div>
                             </div>
 
-                           {/* Owner Checkbox removed — users can only register as regular users */}
+                            {/* Owner Checkbox removed — users can only register as regular users */}
                         </div>
                     </div>
 
