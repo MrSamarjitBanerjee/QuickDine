@@ -183,22 +183,23 @@ Created and executed seed scripts to populate the database with demo users and r
 
 ---
 
-### ☁️ Deployment & Development Workflow
+### ☁️ Deployment & Production
+
+#### Frontend Deployment (Vercel)
+Deployed the React application on **Vercel**, learning how to configure build settings, manage environment variables, and connect the frontend to a production backend through environment-based API URLs.
+
+#### Backend Deployment (Render)
+Deployed the Express.js API on **Render**, configuring environment variables, connecting to MongoDB Atlas, handling production builds, and exposing REST APIs for the frontend.
 
 #### Environment Management
-Learned how to separate development and production environments using `.env` files while keeping sensitive credentials out of version control.
+Learned to separate development and production environments using `.env` files and environment variables while ensuring sensitive credentials such as JWT secrets and database URLs remain outside version control.
 
-#### Version Control with Git & GitHub
-Practiced using Git for source control, creating meaningful commits, managing branches, using `.gitignore`, and publishing projects to GitHub.
-
-#### Vercel Deployment
-Configured both frontend and backend for deployment on Vercel by managing environment variables, build settings, and deployment configuration files.
-
-#### Production Readiness
-Learned the importance of validating required environment variables, enabling CORS for specific origins, securing APIs with rate limiting, and preparing an application for deployment instead of only local development.
+#### Git & GitHub Workflow
+Practiced version control using Git by managing commits, maintaining a clean repository with `.gitignore`, and publishing the project on GitHub following industry-standard workflows.
 
 #### Full-Stack Integration
-Understood how a React frontend communicates with an Express backend, how data flows through REST APIs, how authentication is maintained using JWT, and how frontend and backend work together as a complete application.
+Gained a clear understanding of how a deployed React frontend communicates with a deployed Express backend through REST APIs, including handling CORS, authentication, environment-based configuration, and end-to-end request flow.
+
 
 
 
