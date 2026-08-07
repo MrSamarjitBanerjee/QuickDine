@@ -182,21 +182,7 @@ export default function AuthModal() {
                                 </div>
                             </div>
 
-                            {/* Owner Checkbox (Register Only) 
-                            {!isLoginTab && (
-                                <div className="flex items-center gap-2.5 pt-2">
-                                    <input
-                                        type="checkbox"
-                                        id="isOwner"
-                                        checked={isOwner}
-                                        onChange={(e) => setIsOwner(e.target.checked)}
-                                        className="h-4 w-4 accent-secondary rounded border-outline-variant/60 cursor-pointer"
-                                    />
-                                    <label htmlFor="isOwner" className="text-xs text-black/55 select-none cursor-pointer">
-                                        I am a Restaurant Owner / Manager
-                                    </label>
-                                </div>
-                            ))*/}
+                           {/* Owner Checkbox removed — users can only register as regular users */}
                         </div>
                     </div>
 
