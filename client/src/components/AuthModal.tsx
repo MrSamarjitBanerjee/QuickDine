@@ -11,7 +11,7 @@ export default function AuthModal() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [phone, setPhone] = useState("");
-    const [isOwner, setIsOwner] = useState<boolean>(false);
+   // const [isOwner, setIsOwner] = useState<boolean>(false);
 
     const [formLoading, setFormLoading] = useState(false);
 
@@ -22,7 +22,7 @@ export default function AuthModal() {
         setEmail("");
         setPassword("");
         setPhone("");
-        setIsOwner(false);
+        //setIsOwner(false);
     };
 
     const handleClose = () => {
@@ -39,7 +39,7 @@ export default function AuthModal() {
         if (isLoginTab) {
             success = await login(email, password);
         } else {
-            success = await register(name, email, password, phone, isOwner ? "owner" : "user");
+            success = await register(name, email, password, phone, "user");
         }
 
         setFormLoading(false);
