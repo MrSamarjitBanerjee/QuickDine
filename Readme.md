@@ -35,7 +35,13 @@ A full-stack restaurant discovery and table booking platform built with the MERN
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=28&duration=3500&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=MongoDB+%E2%80%A2+Express.js+%E2%80%A2+React+%E2%80%A2+Node.js" />
+  <img height="60" src="https://go-skill-icons.vercel.app/api/icons?i=mongodb"/>
+  <img width="15"/>
+  <img height="60" src="https://go-skill-icons.vercel.app/api/icons?i=expressjs"/>
+  <img width="15"/>
+  <img height="60" src="https://go-skill-icons.vercel.app/api/icons?i=react"/>
+  <img width="15"/>
+  <img height="60" src="https://go-skill-icons.vercel.app/api/icons?i=nodejs"/>
 </p>
 
 ## 🛠 Tech Stack
