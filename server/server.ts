@@ -9,18 +9,14 @@ import bookingRouter from "./routes/bookingRoutes.js";
 import ownerRouter from "./routes/ownerRoutes.js";
 import adminRouter from "./routes/adminRoutes.js";
 
-const isProduction = process.env.NODE_ENV === "production";
+const requiredEnvVars = ["JWT_SECRET", "MONGODB_URI", "CLOUDINARY_URL" , "ADMIN_EMAIL" , "ADMIN_PASSWORD" , "OWNER_EMAIL" , "OWNER_PASSWORD"];
+const missing = requiredEnvVars.filter((key) => !process.env[key]);
 
-// Fail fast on missing required config in production instead of crashing at runtime
-if (isProduction) {
-    const requiredEnvVars = ["JWT_SECRET", "MONGODB_URI"];
-    const missing = requiredEnvVars.filter((key) => !process.env[key]);
-    if (missing.length > 0) {
-        console.error(
-            `Server failed to start: missing required environment variable(s): ${missing.join(", ")}`
-        );
-        process.exit(1);
-    }
+if (missing.length > 0) {
+  console.error(
+    `Missing required environment variable(s): ${missing.join(", ")}`
+  );
+  process.exit(1);
 }
 
 const app = express();
