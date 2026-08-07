@@ -11,7 +11,7 @@ export default function AuthModal() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [phone, setPhone] = useState("");
-    //const [isOwner, setIsOwner] = useState<boolean>(false);
+    const [isOwner, setIsOwner] = useState<boolean>(false);
 
     const [formLoading, setFormLoading] = useState(false);
 
@@ -22,7 +22,7 @@ export default function AuthModal() {
         setEmail("");
         setPassword("");
         setPhone("");
-        //setIsOwner(false);
+        setIsOwner(false);
     };
 
     const handleClose = () => {
@@ -39,7 +39,7 @@ export default function AuthModal() {
         if (isLoginTab) {
             success = await login(email, password);
         } else {
-            success = await register(name, email, password, phone, "user");
+            success = await register(name, email, password, phone, isOwner ? "owner" : "user");
         }
 
         setFormLoading(false);
@@ -161,8 +161,6 @@ export default function AuthModal() {
                                     </div>
                                 </div>
                             )}
-                            
-                        
 
                             {/* Password Field */}
                             <div className="space-y-1">
@@ -182,9 +180,6 @@ export default function AuthModal() {
                                         className="w-full pl-7 pb-2 pt-1 text-sm bg-transparent border-b border-outline-variant/60 focus:border-secondary focus:outline-none transition-colors"
                                     />
                                 </div>
-                            </div>
-
-                            </div>
                             </div>
 
                             {/* Owner Checkbox (Register Only) */}
