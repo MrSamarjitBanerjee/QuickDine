@@ -161,6 +161,9 @@ export default function AuthModal() {
                                     </div>
                                 </div>
                             )}
+                            
+                            </div>
+                            </div>
 
                             {/* Password Field */}
                             <div className="space-y-1">
