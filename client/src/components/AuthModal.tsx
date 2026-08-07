@@ -182,6 +182,10 @@ export default function AuthModal() {
                                 </div>
                             </div>
 
+                    </div>
+                        </div>
+
+
                            
                         
 
