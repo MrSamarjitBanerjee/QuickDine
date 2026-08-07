@@ -27,7 +27,7 @@ export default function AuthModal() {
 
     const handleClose = () => {
         resetForm();
-        setAuthModalOpen(false);
+        setAuthModalOpen(false);  
     };
 
     const handleSubmit = async (e: React.FormEvent) => {
