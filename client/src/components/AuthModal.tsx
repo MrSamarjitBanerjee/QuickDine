@@ -183,8 +183,7 @@ export default function AuthModal() {
                             </div>
 
                            
-                        </div>
-                    </div>
+                        
 
                     {/* Submit Buttons */}
                     <div className="mt-8">
