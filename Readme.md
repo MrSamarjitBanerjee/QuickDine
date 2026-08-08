@@ -235,11 +235,19 @@ Learned to separate development and production environments using `.env` files a
 #### Git & GitHub Workflow
 Practiced version control using Git by managing commits, maintaining a clean repository with `.gitignore`, and publishing the project on GitHub following industry-standard workflows.
 
+
 #### Full-Stack Integration
 Gained a clear understanding of how a deployed React frontend communicates with a deployed Express backend through REST APIs, including handling CORS, authentication, environment-based configuration, and end-to-end request flow.
 
 
 
+### Production Authentication & RBAC
+
+* Implemented **Role-Based Access Control (RBAC)** for `user`, `owner`, and `admin` roles.
+* Restricted public registration to **normal users only**; the Owner/Manager signup option was removed from the production UI.
+* New registrations are assigned the `user` role by default, preventing users from assigning themselves privileged roles.
+* Protected owner and admin functionality through **role-based authorization and protected routes**.
+* Admin and owner accounts are provisioned separately rather than through public signup.
 
 
 
