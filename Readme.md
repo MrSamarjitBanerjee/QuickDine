@@ -11,7 +11,7 @@
 
 A full-stack restaurant discovery and table booking platform built with the MERN stack. Users can discover restaurants, check table availability, and reserve seats, while restaurant owners and admins manage bookings through dedicated dashboards.
 
-> Built as a learning project to strengthen React, TypeScript, Express.js, MongoDB, authentication, and REST API development. 
+> Built as a Guided learning project to strengthen React, TypeScript, Express.js, MongoDB, authentication, and REST API development. 
 
 ---
 
